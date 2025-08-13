@@ -1,0 +1,8 @@
+#!/bin/tcsh -f
+
+# CMSC 216
+# Test 2
+#
+# Tests running the second program to compute jacobsthal(3).
+
+spim -file prog2.s < public4.inputdata | tail -n +2

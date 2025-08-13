@@ -1,0 +1,9 @@
+#!/bin/tcsh -f
+
+# CMSC 216
+# Test 1
+#
+# Tests running the first program to compute prism_area(1, 1, 1).
+#
+
+spim -file prog1.s < public1.inputdata | tail -n +2
